@@ -215,6 +215,7 @@ function App() {
 			</FloatButton.Group>
 			<FloorModal addFloor={addFloor} closeModal={() => setIsFloorModalOpen(false)}
 						isModalOpen={isFloorModalOpen} handleCancel={handleFloorModalCancel}
+						floors={floors} setFloors={setFloors}
 			/>
 			<GroupModal addGroup={addGroup} closeModal={() => setIsGroupModalOpen(false)}
 						isModalOpen={isGroupModalOpen} handleCancel={handleGroupModalCancel}
